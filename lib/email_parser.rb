@@ -13,5 +13,6 @@ class EmailAddressParser
      @email_addresses.split(/[ ,]/)
      result.filter {|x| x != " "}
      result
+     binding.pry
   end
 end

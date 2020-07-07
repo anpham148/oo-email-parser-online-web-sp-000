@@ -9,7 +9,7 @@ class EmailAddressParser
   end
 
   def parse
-    result = @email_addresses.split([" ",])
+    result = @email_addresses.split(/[" ",]/)
     result.uniq
   end
   end

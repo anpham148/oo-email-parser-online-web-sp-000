@@ -14,6 +14,6 @@ class EmailAddressParser
 
      result = result.filter {|x| x != " "}
      result
-
+binding.pry
   end
 end

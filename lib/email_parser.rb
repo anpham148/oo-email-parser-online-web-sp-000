@@ -10,7 +10,7 @@ class EmailAddressParser
   end
 
   def parse
-     @email_addresses.split(/[ ,]/)
+     result = @email_addresses.split(/[ ,]/)
     binding.pry
      result.filter {|x| x != " "}
      result

@@ -12,6 +12,6 @@ class EmailAddressParser
   def parse
      @email_addresses.split(/[ ,]/)
      result.filter {|x| x != " "}
-     result 
+     result
   end
 end
